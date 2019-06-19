@@ -5,6 +5,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
   templateUrl: './camera.component.html',
   styleUrls: ['./camera.component.css']
 })
+
 export class CameraComponent implements 
 OnInit {
   @ViewChild('video') video;
